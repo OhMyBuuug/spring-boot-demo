@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="84ceffaf-18e4-4ebf-ae9f-e7ef23995190" name="腾讯云" url="http://119.29.94.181">
+        <fileTransfer host="119.29.94.181" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions controlEncoding="GBKUTF-8" dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="8f31d08f-0cb3-4d35-bcf8-e9b0a73afda8" name="红石版图" url="http://192.168.198.1">
+        <fileTransfer host="192.168.198.1" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions controlEncoding="UTF-8" dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
